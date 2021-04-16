@@ -1,0 +1,77 @@
+.newsletter{
+    display: flex;
+    flex-direction: column;
+
+    border: solid 2px;
+    padding: 20px;
+    margin:25%
+}
+
+.name>h1{
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+    padding-bottom: 20px;
+    
+}
+
+.info{
+    display: flex;
+
+    justify-content: space-between;
+    border-bottom: solid 2px ;
+    border-top: solid 2px ;
+    border-color: black;
+    
+}
+
+.info>h2{
+    font-size: 40px;
+    margin: 0;
+}
+
+.title>h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.title h3{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;   
+    letter-spacing: 5px; 
+    text-transform: uppercase;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side>h3{
+
+    border-bottom: solid 2px ;
+    border-top: solid 2px ;
+    border-color: black;
+}
+
+.left-side>h3>span{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 40px;
+
+}
+
+.separar{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.right-side img{
+    width: 300px;
+}
